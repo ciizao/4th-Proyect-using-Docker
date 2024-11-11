@@ -5,5 +5,5 @@ COPY . /usr/src/app
 
 EXPOSE 3000
 
-CMD ["php", "-S", "0.0.0.0:$PORT", "-t", "/usr/src/app"]
+CMD ["php", "-S", "0.0.0.0:3000", "-t", "/usr/src/app"]
 
