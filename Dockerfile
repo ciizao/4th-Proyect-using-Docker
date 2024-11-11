@@ -11,5 +11,5 @@ COPY . /usr/src/app
 EXPOSE 3000
 
 # Inicia el servidor PHP embebido en la IP 0.0.0.0 para aceptar conexiones desde fuera del contenedor
-CMD ["php", "-S", "0.0.0.0:$PORT", "-t", "/usr/src/app"]
+CMD ["php", "-S", "0.0.0.0:3000", "-t", "/usr/src/app"]
 
