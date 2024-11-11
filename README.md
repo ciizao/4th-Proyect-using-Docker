@@ -50,10 +50,10 @@ The platform automatically uses our Dockerfile to build the container.
 > [!IMPORTANT]
 > Next, the configuration that we must add is the generation of a domain along with the desired port, in this case the indicated thing would be to point to port 3000
 
-![Generate Domain](public/Images/Railway2.png"Domain")
+![Generate Domain](public/Images/Railway2.png "Domain")
 
 ### View the results
-![Result Railway](public/Images/RailwayResultado.png"Domain")
+![Result Railway](public/Images/RailwayResultado.png)
 
 
 Link Railway App
