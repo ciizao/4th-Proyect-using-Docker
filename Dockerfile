@@ -1,8 +1,9 @@
 
-FROM php:8.1-apache
+FROM php:8.1-cli
 
-COPY . /var/www/html/
+COPY . /usr/src/app
 
 EXPOSE 3000
 
-CMD ["php", "-S", "0.0.0.0:3000", "-t", "/var/www/html"]
+CMD ["php", "-S", "0.0.0.0:$PORT", "-t", "/usr/src/app"]
+
