@@ -19,6 +19,11 @@ This is a program that presents a message on the web with PHP
 * Docker - DockerDesktop installed
 * DockerHub account
 ### Download image
+
+*Image in the DockerHub repository and how to use it
+```
+https://hub.docker.com/repository/docker/ciizao/4th-proyect-using-docker-php/general
+```
 ```
 docker pull ciizao/4th-proyect-using-docker-php
 ```
@@ -51,6 +56,9 @@ For its deployment in a PAAS we will rely on railway and its easy implementation
 ![Generate Domain](Public/Images/Railway2.png "Domain")
 
 ### View the results
+
+This is the result of deploying in Railway through the created domain
+
 ![Result Railway](Public/Images/RailwayResultado.png)
 
 
