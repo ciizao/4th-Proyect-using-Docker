@@ -10,6 +10,6 @@ COPY . /usr/src/app
 EXPOSE 3000
 
 # Usa sh -c para que PHP interprete la variable $PORT correctamente
-CMD ["sh", "-c", "php -S 0.0.0.0:$PORT -t /usr/src/app"]
+CMD ["sh", "-c", "php -S 0.0.0.0:3000 -t /usr/src/app"]
 
 
