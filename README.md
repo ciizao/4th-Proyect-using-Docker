@@ -22,7 +22,7 @@ This is a program that presents a message on the web with PHP
 
 *Image in the DockerHub repository and how to use it
 ```
-https://hub.docker.com/repository/docker/ciizao/4th-proyect-using-docker-php/general
+https://hub.docker.com/repository/docker/ciizao/4th-proyect-using-docker-php
 ```
 ```
 docker pull ciizao/4th-proyect-using-docker-php
